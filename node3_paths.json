@@ -1,0 +1,35 @@
+{
+  "node": "NODE3",
+  "git_ref": "hqx-bluebell-runtimecfg-playbooks-20260430",
+  "commit": "c714d55b268110d9021dfec52c7cbedaa7418a97",
+  "image": "ghcr.io/breezebluestudio/vllm-omni-bluebell-v0:v1-with-fa2-cu130-shmfix-runtimecfg-20260428-r2",
+  "selected_compare_root": "/mnt/dongbo_moved/qianxin_commit_c714d55_runtime_20260503/conc300_501_750_probe_20260503_143450/selected_wall_compare_501_750",
+  "full_run_root": "/mnt/dongbo_moved/qianxin_commit_c714d55_runtime_20260503/conc300_501_750_probe_20260503_143450/audio_preserve_501_750_300req",
+  "dataset_parquet": "/mnt/dongbo_moved/qianxin_commit_c714d55_runtime_20260503/conc300_501_750_probe_20260503_143450/selected_wall_compare_501_750/materials/20260429_multi_bin_501_750.parquet",
+  "selected_cases": [
+    {
+      "scenario": "tts",
+      "case_dir": "/mnt/dongbo_moved/qianxin_commit_c714d55_runtime_20260503/conc300_501_750_probe_20260503_143450/selected_wall_compare_501_750/tts_sample_0041_501_750_042",
+      "sample_idx": 41,
+      "sample_id": "501_750_042",
+      "concurrent_audio_sec": 119.92,
+      "single_audio_sec": 36.48
+    },
+    {
+      "scenario": "voice_design",
+      "case_dir": "/mnt/dongbo_moved/qianxin_commit_c714d55_runtime_20260503/conc300_501_750_probe_20260503_143450/selected_wall_compare_501_750/voice_design_sample_0015_501_750_016",
+      "sample_idx": 15,
+      "sample_id": "501_750_016",
+      "concurrent_audio_sec": 119.92,
+      "single_audio_sec": 95.6
+    },
+    {
+      "scenario": "voice_clone_tts",
+      "case_dir": "/mnt/dongbo_moved/qianxin_commit_c714d55_runtime_20260503/conc300_501_750_probe_20260503_143450/selected_wall_compare_501_750/voice_clone_tts_sample_0052_501_750_053",
+      "sample_idx": 52,
+      "sample_id": "501_750_053",
+      "concurrent_audio_sec": 119.92,
+      "single_audio_sec": 27.76
+    }
+  ]
+}
